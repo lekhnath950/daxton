@@ -118,3 +118,141 @@ s 8 bytes.
 Bye! See you soon. :)
 ```
 
+
+
+
+
+
+/* Program to Perform Arithmetic Operations in C */
+
+#include<stdio.h>
+
+int main()
+{
+ int a = 12, b = 3;
+ int addition, subtraction, multiplication, division, modulus;
+ 
+ addition = a + b; //addition of 3 and 12
+ subtraction = a - b; //subtract 3 from 12
+ multiplication = a * b; //Multiplying both
+ division = a / b; //dividing 12 by 3 (number of times)
+ modulus = a % b; //calculation the remainder
+ 
+ printf("Addition of two numbers a, b is : %d\n", addition);
+ printf("Subtraction of two numbers a, b is : %d\n", subtraction);
+ printf("Multiplication of two numbers a, b is : %d\n", multiplication);
+ printf("Division of two numbers a, b is : %d\n", division);
+ printf("Modulus of two numbers a, b is : %d\n", modulus);
+
+}
+
+
+Output:
+Additions of two numbers a,b is : 15
+Subtraction of two numbers a,b is : 9
+Multiplication of two numbers a,b is: 36
+Division of two numbers a, b is : 4
+Modulus of two numbers a, b is : 0
+
+
+
+
+Program 4  Program to use logical operators.
+
+#include <stdio.h>
+
+main() {
+
+   int a = 5;
+   int b = 20;
+   int c ;
+
+   if ( a && b ) {
+      printf("Line 1 - Condition is true\n" );
+   }
+	
+   if ( a || b ) {
+      printf("Line 2 - Condition is true\n" );
+   }
+   
+   /* lets change the value of  a and b */
+   a = 0;
+   b = 10;
+	
+   if ( a && b ) {
+      printf("Line 3 - Condition is true\n" );
+   } else {
+      printf("Line 3 - Condition is not true\n" );
+   }
+	
+   if ( !(a && b) ) {
+      printf("Line 4 - Condition is true\n" );
+   }
+	
+}
+
+
+Output:
+Line 1 - Condition is true
+Line 2 - Condition is true
+Line 3 - Condition is not true
+Line 4 - Condition is true
+
+
+
+
+
+
+
+Program 5  Program to use relational operators.
+
+#include <stdio.h>
+
+main() {
+
+   int a = 21;
+   int b = 10;
+   int c ;
+
+   if( a == b ) {
+      printf("Line 1 - a is equal to b\n" );
+   } else {
+      printf("Line 1 - a is not equal to b\n" );
+   }
+	
+   if ( a < b ) {
+      printf("Line 2 - a is less than b\n" );
+   } else {
+      printf("Line 2 - a is not less than b\n" );
+   }
+	
+   if ( a > b ) {
+      printf("Line 3 - a is greater than b\n" );
+   } else {
+      printf("Line 3 - a is not greater than b\n" );
+   }
+   
+   /* Lets change value of a and b */
+   a = 5;
+   b = 20;
+	
+   if ( a <= b ) {
+      printf("Line 4 - a is either less than or equal to  b\n" );
+   }
+	
+   if ( b >= a ) {
+      printf("Line 5 - b is either greater than  or equal to b\n" );
+   }
+}
+
+Output:
+
+Line 1 - a is not equal to b
+Line 2 - a is not less than b
+Line 3 - a is greater than b
+Line 4 - a is either less than or equal to  b
+Line 5 - b is either greater than  or equal to b
+
+
+
+
