@@ -1,3 +1,22 @@
+# **PROGRAMMING FOR PROBLEM SOLVING ** 
+## NAME- *Ramesh khanal*
+## UNIVERSITY ROLL NO.- *2005097* 
+## COLLEGE ROLL NO- *2030073* 
+## BRANCH- *Mechanical* 
+## SECTION- *ME-B* ![LOGO](https://blog.coachingkaro.org/wp-content/uploads/2019/07/logo.jpg) 
+
+# **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA** 
+
+
+
+
+
+
+
+
+
+
+
 *Program:1* **Program to print a content 
 		using printf and puts**
 
