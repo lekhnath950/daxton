@@ -372,3 +372,220 @@ i is greater than 20
 ```
 
 
+
+
+Program 8 Program to use for loop, nested for loop.
+
+
+#include <stdio.h>
+int main() {
+  int i;
+
+  for (i = 1; i < 11; ++i)
+  {
+    printf("%d ", i);
+  }
+  return 0;
+}
+
+Output
+
+1 2 3 4 5 6 7 8 9 10
+
+
+
+
+Program 9  Program to use while loop, do-while loop.
+
+
+#include <stdio.h>
+int main()
+{
+    int i = 1;
+    
+    while (i <= 5)
+    {
+        printf("%d\n", i);
+        ++i;
+    }
+
+    return 0;
+}
+
+Output
+
+1
+2
+3
+4
+5
+
+
+do-while loop
+
+
+
+#include <stdio.h>
+int main()
+{
+    double number, sum = 0;
+
+    // the body of the loop is executed at least once
+    do
+    {
+        printf("Enter a number: ");
+        scanf("%lf", &number);
+        sum += number;
+    }
+    while(number != 0.0);
+
+    printf("Sum = %.2lf",sum);
+
+    return 0;
+}
+
+Output
+
+Enter a number: 1.5
+Enter a number: 2.4
+Enter a number: -3.4
+Enter a number: 4.2
+Enter a number: 0
+Sum = 4.70
+
+
+
+
+
+Program 10  Program to use switch statement.
+
+
+#include <stdio.h>
+
+int main() {
+    char operator;
+    double n1, n2;
+
+    printf("Enter an operator (+, -, *, /): ");
+    scanf("%c", &operator);
+    printf("Enter two operands: ");
+    scanf("%lf %lf",&n1, &n2);
+
+    switch(operator)
+    {
+        case '+':
+            printf("%.1lf + %.1lf = %.1lf",n1, n2, n1+n2);
+            break;
+
+        case '-':
+            printf("%.1lf - %.1lf = %.1lf",n1, n2, n1-n2);
+            break;
+
+        case '*':
+            printf("%.1lf * %.1lf = %.1lf",n1, n2, n1*n2);
+            break;
+
+        case '/':
+            printf("%.1lf / %.1lf = %.1lf",n1, n2, n1/n2);
+            break;
+
+        // operator doesn't match any case constant +, -, *, /
+        default:
+            printf("Error! operator is not correct");
+    }
+
+    return 0;
+}
+
+Output
+
+Enter an operator (+, -, *,): -
+Enter two operands: 32.5
+12.4
+32.5 - 12.4 = 20.1
+
+
+
+
+Program 11   Program to implement and use functions
+
+#include <stdio.h>
+int addition(int num1, int num2)
+{
+     int sum;
+     /* Arguments are used here*/
+     sum = num1+num2;
+
+     /* Function return type is integer so we are returning
+      * an integer value, the sum of the passed numbers.
+      */
+     return sum;
+}
+
+int main()
+{
+     int var1, var2;
+     printf("Enter number 1: ");
+     scanf("%d",&var1);
+     printf("Enter number 2: ");
+     scanf("%d",&var2);
+
+     /* Calling the function here, the function return type
+      * is integer so we need an integer variable to hold the
+      * returned value of this function.
+      */
+     int res = addition(var1, var2);
+     printf ("Output: %d", res);
+
+     return 0;
+}
+
+Output:
+
+Enter number 1: 100
+Enter number 2: 120
+Output: 220
+
+
+
+
+
+
+Program 12   Program to use arrays
+
+// Program to take 5 values from the user and store them in an array
+// Print the elements stored in the array
+#include <stdio.h>
+
+int main() {
+  int values[5];
+
+  printf("Enter 5 integers: ");
+
+  // taking input and storing it in an array
+  for(int i = 0; i < 5; ++i) {
+     scanf("%d", &values[i]);
+  }
+
+  printf("Displaying integers: ");
+
+  // printing elements of an array
+  for(int i = 0; i < 5; ++i) {
+     printf("%d\n", values[i]);
+  }
+  return 0;
+}
+
+Output
+
+Enter 5 integers: 1
+-3
+34
+0
+3
+Displaying integers: 1
+-3
+34
+0
+3
+
