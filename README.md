@@ -1,4 +1,5 @@
-*Program:1* **Program to print a content using printf and puts**
+*Program:1* **Program to print a content 
+		using printf and puts**
 
 
 
@@ -23,8 +24,9 @@ int main()
 }
 ```
 
+
+**Output:**
 ```
-Output: 
 GNDEC
 LUDHIANA
 ```
@@ -48,8 +50,8 @@ int main()
 }
 ```
 
+**Output:**
 ```
-Output:
 GNDEC LUDHIANA
 ```
 
@@ -108,8 +110,9 @@ int main()
 }
 ```
 
+
+**Output:** 
 ```
-Output: 
 Hello World!
 Hello! I am a character. My value is G and my size is 1 byte.
 Hello! I am an integer. My value is 1 and my size is 4  bytes.
@@ -134,11 +137,11 @@ int main()
  int a = 12, b = 3;
  int addition, subtraction, multiplication, division, modulus;
  
- addition = a + b; //addition of 3 and 12
- subtraction = a - b; //subtract 3 from 12
+ addition = a + b;        //addition of 3 and 12
+ subtraction = a - b;    //subtract 3 from 12
  multiplication = a * b; //Multiplying both
- division = a / b; //dividing 12 by 3 (number of times)
- modulus = a % b; //calculation the remainder
+ division = a / b;       //dividing 12 by 3 (number of times)
+ modulus = a % b;       //calculation the remainder
  
  printf("Addition of two numbers a, b is : %d\n", addition);
  printf("Subtraction of two numbers a, b is : %d\n", subtraction);
@@ -148,8 +151,9 @@ int main()
 
 }
 ```
+
+**Output:**
 ```
-Output:
 Additions of two numbers a,b is : 15
 Subtraction of two numbers a,b is : 9
 Multiplication of two numbers a,b is: 36
@@ -192,8 +196,9 @@ main() {
 	
 }
 ```
+
+**Output:**
 ```
-Output:
 Line 1 - Condition is true
 Line 2 - Condition is true
 Line 3 - Condition is not true
@@ -245,7 +250,7 @@ main() {
    }
 }
 ```
-Output:
+**Output:**
 ```
 Line 1 - a is not equal to b
 Line 2 - a is not less than b
@@ -258,7 +263,7 @@ Line 5 - b is either greater than  or equal to b
 
 *Program 6*  **Program to use increment and decrement operators.**
 
-// Increment operator in c
+**// Increment operator in c**
 ```
 #include <stdio.h>
 int main()
@@ -272,7 +277,7 @@ int main()
 }
 ```
 
-Output:
+**Output:**
 ```
 1 2 3 4 5 6 7 8 9
 ```
@@ -292,7 +297,7 @@ int main()
 ```
 
 
-Output:
+**Output:**
 
 ```
 20 19 18 17 16 15 14 13 12 11
@@ -331,7 +336,7 @@ int main()
 } 
 ```
 
-Output:
+__Output:__
 ```
 i is 20
 ```
@@ -366,7 +371,7 @@ int main()
 		printf("i is greater than 20"); 
 } 
 ```
-Output:
+**Output:**
 ```
 i is greater than 20
 ```
@@ -374,9 +379,9 @@ i is greater than 20
 
 
 
-Program 8 Program to use for loop, nested for loop.
+*Program 8* **Program to use for loop, nested for loop.**
 
-
+```
 #include <stdio.h>
 int main() {
   int i;
@@ -387,17 +392,17 @@ int main() {
   }
   return 0;
 }
-
-Output
-
+```
+**Output**
+```
 1 2 3 4 5 6 7 8 9 10
+```
 
 
 
+*Program 9*  **Program to use while loop, do-while loop.**
 
-Program 9  Program to use while loop, do-while loop.
-
-
+```
 #include <stdio.h>
 int main()
 {
@@ -411,20 +416,20 @@ int main()
 
     return 0;
 }
-
-Output
-
+```
+**Output**
+```
 1
 2
 3
 4
 5
+```
+
+**do-while loop**
 
 
-do-while loop
-
-
-
+```
 #include <stdio.h>
 int main()
 {
@@ -443,25 +448,24 @@ int main()
 
     return 0;
 }
-
-Output
-
+```
+**Output**
+```
 Enter a number: 1.5
 Enter a number: 2.4
 Enter a number: -3.4
 Enter a number: 4.2
 Enter a number: 0
 Sum = 4.70
+```
 
 
 
 
+*Program 10*  **Program to use switch statement.**
 
-Program 10  Program to use switch statement.
-
-
+```
 #include <stdio.h>
-
 int main() {
     char operator;
     double n1, n2;
@@ -496,19 +500,19 @@ int main() {
 
     return 0;
 }
-
-Output
-
+```
+**Output**
+```
 Enter an operator (+, -, *,): -
 Enter two operands: 32.5
 12.4
 32.5 - 12.4 = 20.1
+```
 
 
 
-
-Program 11   Program to implement and use functions
-
+*Program 11*   **Program to implement and use functions**
+```
 #include <stdio.h>
 int addition(int num1, int num2)
 {
@@ -539,20 +543,20 @@ int main()
 
      return 0;
 }
-
-Output:
-
+```
+**Output:**
+```
 Enter number 1: 100
 Enter number 2: 120
 Output: 220
+```
 
 
 
 
 
-
-Program 12   Program to use arrays
-
+*Program 12*   **Program to use arrays**
+```
 // Program to take 5 values from the user and store them in an array
 // Print the elements stored in the array
 #include <stdio.h>
@@ -575,9 +579,9 @@ int main() {
   }
   return 0;
 }
-
-Output
-
+```
+**Output**
+```
 Enter 5 integers: 1
 -3
 34
@@ -588,4 +592,4 @@ Displaying integers: 1
 34
 0
 3
-
+```
