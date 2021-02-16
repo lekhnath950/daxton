@@ -54,7 +54,7 @@ GNDEC LUDHIANA
 ```
 
 *Program 2* **Program to use different data types
-              (int,float,char)
+              (int,float,char)**
               
 ```
 #include <stdio.h>
@@ -89,8 +89,8 @@ int main()
            "my size is %lu  bytes.\n",
 
            a, sizeof(int));
-
-    // can use sizeof(a) above as well
+          
+          // can use sizeof(a) above as well
  
 
     printf("Hello! I am a double floating point variable."
@@ -103,8 +103,6 @@ int main()
  
 
     printf("Bye! See you soon. :)\n");
- 
-
 
     return 0;
 }
