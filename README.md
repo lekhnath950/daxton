@@ -122,7 +122,9 @@ Bye! See you soon. :)
 
 
 
+Program 3 Program to use arithmetic operators.
 
+```
 /* Program to Perform Arithmetic Operations in C */
 
 #include<stdio.h>
@@ -145,15 +147,15 @@ int main()
  printf("Modulus of two numbers a, b is : %d\n", modulus);
 
 }
-
-
+```
+```
 Output:
 Additions of two numbers a,b is : 15
 Subtraction of two numbers a,b is : 9
 Multiplication of two numbers a,b is: 36
 Division of two numbers a, b is : 4
 Modulus of two numbers a, b is : 0
-
+```
 
 
 
