@@ -205,7 +205,7 @@ Line 4 - Condition is true
 
 
 
-*Program 5 * **Program to use relational operators.**
+*Program 5* **Program to use relational operators.**
 ```
 #include <stdio.h>
 main() {
