@@ -10,6 +10,20 @@
 
 
 
+S.no | Program Name 
+----- | -----------
+1 | Program to print a content sing printf & puts
+2 | Program to use different data types (int, Float, Char)
+3 | Program to use arithmetic operators
+4 | Program to use logical operators
+5 | Program to use relational operators
+6 | Program to use increment and decrement operators
+7 | Program to use conditional statements: if-else, if else ladder
+8 | Program to use for loop, nested for loop
+9 | Program to use while loop, do-while loop
+10 | Program to use switch (break and continue)
+11 | Program to implement and use functions
+12 | Program to use arrays
 
 
 
