@@ -122,7 +122,7 @@ Bye! See you soon. :)
 
 
 
-Program 3 Program to use arithmetic operators.
+*Program 3* **Program to use arithmetic operators.**
 
 ```
 /* Program to Perform Arithmetic Operations in C */
@@ -159,10 +159,9 @@ Modulus of two numbers a, b is : 0
 
 
 
-Program 4  Program to use logical operators.
-
+*Program 4*  **Program to use logical operators.**
+```
 #include <stdio.h>
-
 main() {
 
    int a = 5;
@@ -192,24 +191,23 @@ main() {
    }
 	
 }
-
-
+```
+```
 Output:
 Line 1 - Condition is true
 Line 2 - Condition is true
 Line 3 - Condition is not true
 Line 4 - Condition is true
+```
 
 
 
 
 
 
-
-Program 5  Program to use relational operators.
-
+*Program 5 * **Program to use relational operators.**
+```
 #include <stdio.h>
-
 main() {
 
    int a = 21;
@@ -246,21 +244,22 @@ main() {
       printf("Line 5 - b is either greater than  or equal to b\n" );
    }
 }
-
+```
 Output:
-
+```
 Line 1 - a is not equal to b
 Line 2 - a is not less than b
 Line 3 - a is greater than b
 Line 4 - a is either less than or equal to  b
 Line 5 - b is either greater than  or equal to b
+```
 
 
 
-
-Program 6  Program to use increment and decrement operators.
+*Program 6*  **Program to use increment and decrement operators.**
 
 // Increment operator in c
+```
 #include <stdio.h>
 int main()
 {
@@ -271,12 +270,15 @@ int main()
          i++;
      }    
 }
-
+```
 
 Output:
+```
 1 2 3 4 5 6 7 8 9
+```
 
 // Decrement operator in C
+```
 #include <stdio.h>
 int main()
 {
@@ -287,20 +289,21 @@ int main()
          i--;
     }    
 }
-
+```
 
 
 Output:
+
+```
 20 19 18 17 16 15 14 13 12 11
+```
 
 
-
-Program 7  Program to use conditional statements: if-else, if else ladder
-
+*Program 7*  **Program to use conditional statements: if-else, if else ladder**
 
 
+```
 #include <stdio.h> 
-
 int main() 
 { 
 	int i = 20; 
@@ -326,16 +329,17 @@ int main()
 
 	return 0; 
 } 
-
+```
 
 Output:
+```
 i is 20
-
+```
 
 
 
 // C program to illustrate nested-if statement 
-
+```
 #include <stdio.h> 
 
 int main() 
@@ -361,10 +365,10 @@ int main()
 	else
 		printf("i is greater than 20"); 
 } 
-
+```
 Output:
+```
 i is greater than 20
-
-
+```
 
 
