@@ -256,3 +256,113 @@ Line 5 - b is either greater than  or equal to b
 
 
 
+Program 6  Program to use increment and decrement operators.
+
+// Increment operator in c
+#include <stdio.h>
+int main()
+{
+     int i=1;
+     while(i<10)
+     {
+         printf("%d ",i);
+         i++;
+     }    
+}
+
+
+Output:
+1 2 3 4 5 6 7 8 9
+
+// Decrement operator in C
+#include <stdio.h>
+int main()
+{
+    int i=20;
+    while(i>10)
+    {
+         printf("%d ",i);
+         i--;
+    }    
+}
+
+
+
+Output:
+20 19 18 17 16 15 14 13 12 11
+
+
+
+Program 7  Program to use conditional statements: if-else, if else ladder
+
+
+
+#include <stdio.h> 
+
+int main() 
+{ 
+	int i = 20; 
+
+	// Check if i is 10 
+	if (i == 10) 
+		printf("i is 10"); 
+
+	// Since i is not 10 
+	// Check if i is 15 
+	else if (i == 15) 
+		printf("i is 15"); 
+
+	// Since i is not 15 
+	// Check if i is 20 
+	else if (i == 20) 
+		printf("i is 20"); 
+
+	// If none of the above conditions is true 
+	// Then execute the else statement 
+	else
+		printf("i is not present"); 
+
+	return 0; 
+} 
+
+
+Output:
+i is 20
+
+
+
+
+// C program to illustrate nested-if statement 
+
+#include <stdio.h> 
+
+int main() 
+{ 
+	int i = 25; 
+
+	// Check if i is between 0 and 10 
+	if (i >= 0 && i <= 10) 
+		printf("i is between 0 and 10"); 
+
+	// Since i is not between 0 and 10 
+	// Check if i is between 11 and 15 
+	else if (i >= 11 && i <= 15) 
+		printf("i is between 11 and 15"); 
+
+	// Since i is not between 11 and 15 
+	// Check if i is between 16 and 20 
+	else if (i >= 16 && i <= 20) 
+		printf("i is between 16 and 20"); 
+
+	// Since i is not between 0 and 20 
+	// It means i is greater than 20 
+	else
+		printf("i is greater than 20"); 
+} 
+
+Output:
+i is greater than 20
+
+
+
+
